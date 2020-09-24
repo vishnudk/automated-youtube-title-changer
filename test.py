@@ -50,7 +50,7 @@ def function():
     while True:
         try :
             mailId = driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input")
-            mailId.send_keys('vishnudk179@gmail.com',Keys.ENTER)
+            mailId.send_keys('your mail id',Keys.ENTER)
             break
         except:
             pass
@@ -64,7 +64,7 @@ def function():
     while True:
         try:
             passwrdBar=driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input")
-            passwrdBar.send_keys("Bs1@3^$1fDg%&Sds'",Keys.ENTER)
+            passwrdBar.send_keys("your password",Keys.ENTER)
             break
         except:
             pass
@@ -72,7 +72,7 @@ def function():
     while True:
             while True:
                 try:
-                    driver.get('https://youtu.be/aSMjYwCkCUw')
+                    driver.get('link to vedio')
                     break
                 except:
                     pass
@@ -100,7 +100,7 @@ def function():
             # titleButton.click()
             while True:
                 try:
-                    driver.get("https://studio.youtube.com/video/aSMjYwCkCUw/edit/basic?c=UCXJXRZSGnb5UQYm3kXcTRFw")
+                    driver.get("link to youtube studio")
                     break
                 except:
                     pass
